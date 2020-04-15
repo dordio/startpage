@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+body {
+    color: #b6c4d2;
+    background-color: #2d313d;
+    font-family: "Fira Code Regular";
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    outline: 1px solid rgb(0, 0, 0);
+}
+
+h1 {
+    width: 240px;
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    top: 150px;
+    text-align: center;
+    /* border: 1px solid #8ea3b8; */
+}
+
+#container {
+    position: absolute;
+    top: 230px;
+    height: 60%;
+    width: 700px;
+    left: 50%;
+    margin-left: -350px;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+}
+
+.bookmarks {
+    width: 140px;
+    height: 40%;
+    display: block;
+    overflow: auto;
+    background-color: black;
+    color: #8ea3b8;
+    border: 1px solid #57636c;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.list-title {
+    position: absolute;
+    top: -15px;
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #388bc7;
+    display: block;
+    width: 100%;
+    padding: 5px 8px 3px 8px;
+}
+
+a:visited {
+    color: #388bc7;
+}
+
+a:hover {
+    color: #dd7846;
+    background-color: #2d313d;
+}
