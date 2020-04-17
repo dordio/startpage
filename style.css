@@ -11,7 +11,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 1px;
 }
 
 ::-webkit-scrollbar-track {
@@ -28,14 +28,15 @@ h1 {
     position: absolute;
     left: 50%;
     margin-left: -120px;
-    top: 150px;
+    top: 200px;
     text-align: center;
-    /* border: 1px solid #8ea3b8; */
+    letter-spacing: 10px;
+    font-family: "Fira Code Light";
 }
 
 #container {
     position: absolute;
-    top: 230px;
+    top: 330px;
     height: 60%;
     width: 700px;
     left: 50%;
@@ -59,7 +60,19 @@ h1 {
 
 .list-title {
     position: absolute;
-    top: -15px;
+    color: #dd7846;
+    background-color: black;
+    border-top: 1px solid #57636c;
+    border-left: 1px solid #57636c;
+    border-right: 1px solid #57636c;
+    border-bottom: none;
+    padding: 5px 10px 5px 10px;
+    top: -24px;
+    margin-left: -10px;
+}
+
+.list-title p {
+    padding-bottom: 0px;
 }
 
 p {
@@ -69,9 +82,10 @@ p {
 a {
     text-decoration: none;
     color: #388bc7;
-    display: block;
+    /* display: block; */
     width: 100%;
     padding: 5px 8px 3px 8px;
+    line-height: 20px;
 }
 
 a:visited {
